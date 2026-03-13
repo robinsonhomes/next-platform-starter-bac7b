@@ -309,26 +309,28 @@ export default function Page() {
             </section>
 
             {/* CTA Section */}
-            <section className="relative overflow-hidden bg-white">
-                <div className="absolute inset-0 opacity-10">
-                    <img
-                        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80"
-                        alt=""
-                        className="w-full h-full object-cover"
-                    />
-                </div>
-                <div className="relative max-w-4xl mx-auto px-6 sm:px-8 py-20 sm:py-28 text-center">
-                    <h2 className="mb-4">Ready to Build Your Legacy?</h2>
-                    <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
-                        Whether you&apos;re looking to invest, build, or find your dream home &mdash; Robinson Homes LLC is ready to help.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link href="/contact" className="btn btn-primary btn-lg no-underline">
-                            Schedule a Consultation
-                        </Link>
-                        <Link href="/properties" className="btn btn-outline btn-lg no-underline">
-                            Browse Our Homes
-                        </Link>
+            <section className="bg-white">
+                <div className="max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+                    <div className="text-center mb-12">
+                        <h2 className="mb-4">Ready to Build Your Legacy?</h2>
+                        <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
+                            Whether you&apos;re looking to invest, build, or find your dream home &mdash; Robinson Homes LLC is ready to help.
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <Link href="/contact" className="btn btn-primary btn-lg no-underline">
+                                Schedule a Consultation
+                            </Link>
+                            <Link href="/properties" className="btn btn-outline btn-lg no-underline">
+                                Browse Our Homes
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="rounded-lg overflow-hidden shadow-xl">
+                        <img
+                            src="/images/legacy-home.jpeg"
+                            alt="Luxury home built by Robinson Homes"
+                            className="w-full h-auto object-cover"
+                        />
                     </div>
                 </div>
             </section>
