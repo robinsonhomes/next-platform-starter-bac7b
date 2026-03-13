@@ -7,8 +7,10 @@
     --color-brand-dark: #162037;
     --color-brand-gold: #c9a84c;
     --color-brand-gold-light: #e0c56e;
+    --color-brand-gold-dark: #b8952f;
     --color-brand-slate: #2a3a52;
-    --color-brand-light: #f5f0e8;
+    --color-brand-light: #f9f8f6;
+    --color-brand-cream: #f5f0e8;
     --color-primary: #c9a84c;
     --color-primary-content: #0f1b2d;
     --font-display: 'Playfair Display', Georgia, serif;
@@ -19,16 +21,19 @@
     h1 {
         @apply text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl;
         font-family: var(--font-display);
+        color: var(--color-brand-navy);
     }
 
     h2 {
         @apply text-2xl font-bold sm:text-3xl lg:text-4xl;
         font-family: var(--font-display);
+        color: var(--color-brand-navy);
     }
 
     h3 {
         @apply text-xl font-bold;
         font-family: var(--font-display);
+        color: var(--color-brand-navy);
     }
 
     a:not(.btn) {
@@ -46,10 +51,10 @@
     }
 
     .btn-primary {
-        @apply bg-brand-gold text-brand-navy;
+        @apply bg-brand-gold text-white;
 
         &:hover {
-            @apply bg-brand-gold-light;
+            @apply bg-brand-gold-dark;
         }
     }
 
@@ -57,14 +62,22 @@
         @apply border-2 border-brand-gold text-brand-gold bg-transparent;
 
         &:hover {
-            @apply bg-brand-gold text-brand-navy;
+            @apply bg-brand-gold text-white;
+        }
+    }
+
+    .btn-white {
+        @apply bg-white text-brand-navy;
+
+        &:hover {
+            @apply bg-brand-cream;
         }
     }
 
     .btn-lg {
-        --btn-font-size: 1.125rem;
+        --btn-font-size: 1rem;
         --btn-px: 2rem;
-        --btn-py: 1.125rem;
+        --btn-py: 1rem;
     }
 
     .section-divider {
