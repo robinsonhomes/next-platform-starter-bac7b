@@ -243,7 +243,7 @@ export default function Page() {
             <section className="relative overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/testimonials-house-bg.png"
+                        src="/testimonials-bg.jpg"
                         alt=""
                         fill
                         className="object-cover"
