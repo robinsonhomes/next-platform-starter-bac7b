@@ -254,12 +254,12 @@ export default function Page() {
                 <div className="relative max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
                     <div className="text-center mb-16">
                         <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">Testimonials</p>
-                        <h2 className="mb-4 text-white">What Our Clients Say</h2>
+                        <h2 className="mb-4 text-white !text-xl sm:!text-2xl lg:!text-3xl">What Our Clients Say</h2>
                         <div className="section-divider mt-6" />
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+                        <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
                                     <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
@@ -267,15 +267,15 @@ export default function Page() {
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                            <p className="text-white text-sm leading-relaxed mb-6">
                                 &ldquo;Robinson Homes made our dream of owning a home a reality. Their attention to detail and commitment to quality is unmatched. We couldn&apos;t be happier with our new home.&rdquo;
                             </p>
-                            <p className="font-semibold text-brand-navy text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 Sarah &amp; David Mitchell
                             </p>
                         </div>
 
-                        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+                        <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
                                     <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
@@ -283,15 +283,15 @@ export default function Page() {
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                            <p className="text-white text-sm leading-relaxed mb-6">
                                 &ldquo;As a first-time investor, I was nervous about the process. The Robinson Homes team guided me every step of the way. My rental property is already generating great returns.&rdquo;
                             </p>
-                            <p className="font-semibold text-brand-navy text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 James Rodriguez
                             </p>
                         </div>
 
-                        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+                        <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
                                     <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
@@ -299,10 +299,10 @@ export default function Page() {
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                            <p className="text-white text-sm leading-relaxed mb-6">
                                 &ldquo;The renovation of our home exceeded all expectations. Robinson Homes transformed an outdated property into a modern masterpiece. Their craftsmanship is truly exceptional.&rdquo;
                             </p>
-                            <p className="font-semibold text-brand-navy text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 Emily &amp; Tom Chen
                             </p>
                         </div>
