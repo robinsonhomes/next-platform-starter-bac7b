@@ -256,6 +256,14 @@ export default function Page() {
                         <div className="section-divider mt-6" />
                     </div>
 
+                    <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+                        <img
+                            src="/images/testimonials-home.jpeg"
+                            alt="Luxury home built by Robinson Homes"
+                            className="w-full h-64 sm:h-80 md:h-96 object-cover"
+                        />
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
                             <div className="flex gap-1 mb-4">
