@@ -9,19 +9,19 @@ export default function Page() {
             {/* Hero Section */}
             <HeroSlideshow>
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-24 sm:py-32 lg:py-40 text-center w-full">
-                    <p className="text-brand-gold text-sm sm:text-base font-semibold tracking-widest uppercase mb-6">
+                    <p className="text-white text-xs sm:text-sm font-semibold tracking-widest uppercase mb-6">
                         Oklahoma Real Estate Since 2016
                     </p>
-                    <h1 className="!text-white mb-6 leading-tight">
+                    <h1 className="!text-white mb-6 leading-tight !text-2xl sm:!text-3xl lg:!text-4xl">
                         Building Wealth,
                         <br />
-                        <span className="text-brand-gold">One Brick at a Time</span>
+                        <span className="text-white">One Brick at a Time</span>
                     </h1>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-                        <Link href="/properties" className="btn btn-primary btn-lg no-underline">
+                        <Link href="/properties" className="btn btn-primary no-underline !text-white">
                             View Our Homes
                         </Link>
-                        <Link href="/contact" className="btn btn-outline btn-lg no-underline !border-white !text-white hover:!bg-white hover:!text-brand-navy">
+                        <Link href="/contact" className="btn btn-outline no-underline !border-white !text-white hover:!bg-white hover:!text-brand-navy">
                             Get a Free Consultation
                         </Link>
                     </div>
