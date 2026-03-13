@@ -44,7 +44,7 @@ export default function PropertiesPage() {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80)',
+                        backgroundImage: 'url(/images/properties-hero.jpeg)',
                     }}
                 />
                 <div className="absolute inset-0 bg-brand-navy/75" />
