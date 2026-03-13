@@ -165,54 +165,28 @@ export default function Page() {
                         <div className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 bg-white border border-gray-100">
                             <div className="relative aspect-[16/10] overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80"
+                                    src="/images/house-1305.jpeg"
                                     alt="1305 Property"
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl mb-3">1305 Property</h3>
-                                <div className="flex items-center gap-4 text-sm text-gray-500">
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 7v11a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M2 7h20"/><path d="M9 20V7"/><path d="M15 20V7"/></svg>
-                                        3 Beds
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 12h16a1 1 0 011 1v3a1 1 0 01-1 1H4"/><path d="M4 12V6a2 2 0 012-2h3a2 2 0 012 2v6"/></svg>
-                                        2 Baths
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
-                                        1,800 sqft
-                                    </span>
-                                </div>
+                                <h3 className="text-xl mb-2">1305 Property</h3>
+                                <p className="text-gray-500 text-sm leading-relaxed">Charming single-story home with covered porch, attached garage, and spacious front yard.</p>
                             </div>
                         </div>
 
                         <div className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 bg-white border border-gray-100">
                             <div className="relative aspect-[16/10] overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                                    src="/images/house-brick-timber.jpeg"
                                     alt="Brick & Timber Home"
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl mb-3">Brick &amp; Timber Home</h3>
-                                <div className="flex items-center gap-4 text-sm text-gray-500">
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 7v11a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M2 7h20"/><path d="M9 20V7"/><path d="M15 20V7"/></svg>
-                                        3 Beds
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 12h16a1 1 0 011 1v3a1 1 0 01-1 1H4"/><path d="M4 12V6a2 2 0 012-2h3a2 2 0 012 2v6"/></svg>
-                                        2 Baths
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
-                                        1,600 sqft
-                                    </span>
-                                </div>
+                                <h3 className="text-xl mb-2">Brick &amp; Timber Home</h3>
+                                <p className="text-gray-500 text-sm leading-relaxed">Solid brick and timber construction with double garage, mature trees, and generous backyard.</p>
                             </div>
                         </div>
                     </div>

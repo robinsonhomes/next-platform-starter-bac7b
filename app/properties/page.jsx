@@ -10,41 +10,29 @@ const properties = [
         name: '1305 Property',
         badge: 'Featured',
         badgeColor: 'bg-brand-gold',
-        beds: 3,
-        baths: 2,
-        sqft: '1,800',
         description: 'Charming single-story home with covered porch, attached garage, and spacious front yard.',
-        image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80',
+        image: '/images/house-1305.jpeg',
     },
     {
         name: 'Brick & Timber Home',
         badge: 'Investment',
         badgeColor: 'bg-brand-navy',
-        beds: 3,
-        baths: 2,
-        sqft: '1,600',
         description: 'Solid brick and timber construction with double garage, mature trees, and generous backyard.',
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+        image: '/images/house-brick-timber.jpeg',
     },
     {
         name: 'Ranch Style Home',
         badge: 'New',
         badgeColor: 'bg-emerald-600',
-        beds: 4,
-        baths: 2,
-        sqft: '2,200',
         description: 'Spacious ranch-style home with classic shutters, circular driveway, and plenty of room to grow.',
-        image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+        image: '/images/house-ranch.jpeg',
     },
     {
-        name: 'Stone Two-Story',
+        name: 'Modern Luxury Home',
         badge: 'Popular',
         badgeColor: 'bg-rose-600',
-        beds: 4,
-        baths: 3,
-        sqft: '2,400',
-        description: 'Two-story home with stone chimney accent, two-car garage, and well-established neighborhood setting.',
-        image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
+        description: 'Stunning modern two-story home with sleek stucco exterior, black trim accents, and grand entrance.',
+        image: '/images/house-modern-luxury.jpeg',
     },
 ];
 
@@ -90,23 +78,9 @@ export default function PropertiesPage() {
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl mb-2">{property.name}</h3>
-                                    <p className="text-gray-500 text-sm mb-4 leading-relaxed">
+                                    <p className="text-gray-500 text-sm leading-relaxed">
                                         {property.description}
                                     </p>
-                                    <div className="flex items-center gap-4 text-sm text-gray-500 pt-4 border-t border-gray-100">
-                                        <span className="flex items-center gap-1.5">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 7v11a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M2 7h20"/><path d="M9 20V7"/><path d="M15 20V7"/></svg>
-                                            {property.beds} Beds
-                                        </span>
-                                        <span className="flex items-center gap-1.5">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 12h16a1 1 0 011 1v3a1 1 0 01-1 1H4"/><path d="M4 12V6a2 2 0 012-2h3a2 2 0 012 2v6"/></svg>
-                                            {property.baths} Baths
-                                        </span>
-                                        <span className="flex items-center gap-1.5">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-brand-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
-                                            {property.sqft} sqft
-                                        </span>
-                                    </div>
                                 </div>
                             </div>
                         ))}
