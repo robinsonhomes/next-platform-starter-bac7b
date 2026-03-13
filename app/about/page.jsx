@@ -32,8 +32,8 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                         <div className="relative rounded-lg overflow-hidden shadow-xl aspect-[4/3]">
                             <img
-                                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80"
-                                alt="Robinson Homes interior"
+                                src="/images/robinson-home-exterior.jpeg"
+                                alt="Robinson Homes LLC property exterior"
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute -bottom-4 -right-2 sm:right-4 bg-brand-gold text-white px-6 py-4 rounded-lg shadow-xl">
