@@ -16,7 +16,7 @@ const properties = [
     {
         name: 'Brick & Timber Home',
         badge: 'Investment',
-        badgeColor: 'bg-brand-navy',
+        badgeColor: 'bg-brand-gold',
         description: 'Solid brick and timber construction with double garage, mature trees, and generous backyard.',
         image: '/images/house-brick-timber.jpeg',
     },
@@ -88,10 +88,10 @@ export default function PropertiesPage() {
             </section>
 
             {/* CTA */}
-            <section className="bg-brand-navy">
+            <section className="bg-white">
                 <div className="max-w-4xl mx-auto px-6 sm:px-8 py-20 text-center">
-                    <h2 className="!text-white mb-4">Interested in a Property?</h2>
-                    <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
+                    <h2 className="mb-4">Interested in a Property?</h2>
+                    <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
                         Contact us today to schedule a viewing or learn more about our available properties.
                     </p>
                     <Link href="/contact" className="btn btn-primary btn-lg no-underline">

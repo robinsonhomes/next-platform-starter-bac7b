@@ -16,7 +16,7 @@ export default function AboutPage() {
                         backgroundImage: 'url(https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80)',
                     }}
                 />
-                <div className="absolute inset-0 bg-brand-navy/75" />
+                <div className="absolute inset-0 bg-black/30" />
                 <div className="relative max-w-4xl mx-auto px-6 sm:px-8 py-24 sm:py-32 text-center">
                     <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-4">Our Story</p>
                     <h1 className="!text-white mb-6">About Robinson Homes LLC</h1>
@@ -73,24 +73,24 @@ export default function AboutPage() {
             </section>
 
             {/* Stats */}
-            <section className="bg-brand-navy">
+            <section className="bg-white border-y border-gray-100">
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-16">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                         <div>
                             <p className="text-brand-gold text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>$3M+</p>
-                            <p className="text-gray-400 text-sm mt-2">Asset Portfolio</p>
+                            <p className="text-gray-500 text-sm mt-2">Asset Portfolio</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>2016</p>
-                            <p className="text-gray-400 text-sm mt-2">Founded</p>
+                            <p className="text-gray-500 text-sm mt-2">Founded</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>360&deg;</p>
-                            <p className="text-gray-400 text-sm mt-2">Industry Expertise</p>
+                            <p className="text-gray-500 text-sm mt-2">Industry Expertise</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>100%</p>
-                            <p className="text-gray-400 text-sm mt-2">Grit &amp; Hustle</p>
+                            <p className="text-gray-500 text-sm mt-2">Grit &amp; Hustle</p>
                         </div>
                     </div>
                 </div>
@@ -156,10 +156,10 @@ export default function AboutPage() {
             </section>
 
             {/* CTA */}
-            <section className="bg-brand-navy">
+            <section className="bg-white">
                 <div className="max-w-4xl mx-auto px-6 sm:px-8 py-20 text-center">
-                    <h2 className="!text-white mb-4">Ready to Get Started?</h2>
-                    <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
+                    <h2 className="mb-4">Ready to Get Started?</h2>
+                    <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
                         Let&apos;s discuss how Robinson Homes LLC can help you achieve your real estate goals.
                     </p>
                     <Link href="/contact" className="btn btn-primary btn-lg no-underline">

@@ -14,7 +14,7 @@ export default function ContactPage() {
                         backgroundImage: 'url(https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=1600&q=80)',
                     }}
                 />
-                <div className="absolute inset-0 bg-brand-navy/75" />
+                <div className="absolute inset-0 bg-black/30" />
                 <div className="relative max-w-4xl mx-auto px-6 sm:px-8 py-24 sm:py-32 text-center">
                     <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-4">Get in Touch</p>
                     <h1 className="!text-white mb-6">Contact Robinson Homes LLC</h1>
