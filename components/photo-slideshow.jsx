@@ -8,6 +8,13 @@ const photos = [
     { src: '/images/photo-3.jpeg', alt: 'Curved wooden staircase with cascading pendant chandelier', label: 'Custom Staircase' },
     { src: '/images/photo-4.jpeg', alt: 'Luxury dark kitchen with marble island and professional appliances', label: 'Gourmet Kitchen' },
     { src: '/images/photo-5.jpeg', alt: 'Grand two-story foyer with curved staircase and chandelier', label: 'Grand Foyer' },
+    { src: '/images/photo-6.jpeg', alt: 'Open-concept kitchen with pendant lighting and entertainment wall', label: 'Open Kitchen' },
+    { src: '/images/photo-7.jpeg', alt: 'Master bathroom with freestanding tub and marble walls', label: 'Spa Bathroom' },
+    { src: '/images/photo-9.jpeg', alt: 'Kitchen island with farmhouse sink and pendant lights', label: 'Kitchen Island' },
+    { src: '/images/photo-10.jpeg', alt: 'Curved wooden staircase with cascading LED chandelier', label: 'Staircase & Foyer' },
+    { src: '/images/photo-12.jpeg', alt: 'Dark cabinet kitchen with marble countertops and starburst chandeliers', label: 'Luxury Kitchen' },
+    { src: '/images/photo-13.jpeg', alt: 'Luxury dark kitchen with marble island and professional appliances', label: 'Chef Kitchen' },
+    { src: '/images/photo-14.jpeg', alt: 'Grand two-story foyer with iron staircase and modern chandelier', label: 'Modern Foyer' },
 ];
 
 export function PhotoSlideshow() {

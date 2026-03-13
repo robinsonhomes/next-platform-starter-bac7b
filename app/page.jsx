@@ -1,19 +1,13 @@
 import Link from 'next/link';
 import { PhotoSlideshow } from '../components/photo-slideshow';
+import { HeroSlideshow } from '../components/hero-slideshow';
 
 export default function Page() {
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
-            <section className="relative overflow-hidden min-h-[600px] flex items-center">
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                        backgroundImage: 'url(https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80)',
-                    }}
-                />
-                <div className="absolute inset-0 bg-brand-navy/70" />
-                <div className="relative max-w-6xl mx-auto px-6 sm:px-8 py-24 sm:py-32 lg:py-40 text-center w-full">
+            <HeroSlideshow>
+                <div className="max-w-6xl mx-auto px-6 sm:px-8 py-24 sm:py-32 lg:py-40 text-center w-full">
                     <p className="text-brand-gold text-sm sm:text-base font-semibold tracking-widest uppercase mb-6">
                         Oklahoma Real Estate Since 2016
                     </p>
@@ -31,7 +25,7 @@ export default function Page() {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </HeroSlideshow>
 
             {/* Stats Bar */}
             <section className="bg-brand-navy">
