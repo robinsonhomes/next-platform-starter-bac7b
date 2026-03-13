@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { PhotoSlideshow } from '../components/photo-slideshow';
 import { HeroSlideshow } from '../components/hero-slideshow';
 
@@ -239,11 +240,21 @@ export default function Page() {
             </section>
 
             {/* Testimonials */}
-            <section className="bg-brand-light">
-                <div className="max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+            <section className="relative overflow-hidden">
+                <div className="absolute inset-0">
+                    <Image
+                        src="/images/testimonials-house-bg.png"
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="100vw"
+                    />
+                    <div className="absolute inset-0 bg-brand-navy/80" />
+                </div>
+                <div className="relative max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
                     <div className="text-center mb-16">
                         <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">Testimonials</p>
-                        <h2 className="mb-4">What Our Clients Say</h2>
+                        <h2 className="mb-4 text-white">What Our Clients Say</h2>
                         <div className="section-divider mt-6" />
                     </div>
 
