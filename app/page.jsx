@@ -311,7 +311,7 @@ export default function Page() {
             {/* CTA Section */}
             <section className="bg-white">
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
-                    <div className="text-center mb-12">
+                    <div className="text-center">
                         <h2 className="mb-4">Ready to Build Your Legacy?</h2>
                         <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
                             Whether you&apos;re looking to invest, build, or find your dream home &mdash; Robinson Homes LLC is ready to help.
@@ -324,13 +324,6 @@ export default function Page() {
                                 Browse Our Homes
                             </Link>
                         </div>
-                    </div>
-                    <div className="rounded-lg overflow-hidden shadow-xl">
-                        <img
-                            src="/images/legacy-home.jpeg"
-                            alt="Luxury home built by Robinson Homes"
-                            className="w-full h-auto object-cover"
-                        />
                     </div>
                 </div>
             </section>
