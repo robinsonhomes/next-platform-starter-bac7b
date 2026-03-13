@@ -249,12 +249,12 @@ export default function Page() {
                         className="object-cover"
                         sizes="100vw"
                     />
-                    <div className="absolute inset-0 bg-brand-navy/80" />
+                    <div className="absolute inset-0 bg-black/40" />
                 </div>
                 <div className="relative max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
                     <div className="text-center mb-16">
-                        <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">Testimonials</p>
-                        <h2 className="mb-4 text-white !text-xl sm:!text-2xl lg:!text-3xl">What Our Clients Say</h2>
+                        <p className="text-brand-gold/80 text-sm font-semibold tracking-widest uppercase mb-3">Testimonials</p>
+                        <h2 className="mb-4 text-white/80 !text-xl sm:!text-2xl lg:!text-3xl">What Our Clients Say</h2>
                         <div className="section-divider mt-6" />
                     </div>
 
@@ -262,15 +262,15 @@ export default function Page() {
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
-                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
+                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold/80" viewBox="0 0 24 24" fill="currentColor">
                                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-white text-sm leading-relaxed mb-6">
+                            <p className="text-white/80 text-sm leading-relaxed mb-6">
                                 &ldquo;Robinson Homes made our dream of owning a home a reality. Their attention to detail and commitment to quality is unmatched. We couldn&apos;t be happier with our new home.&rdquo;
                             </p>
-                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white/80 text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 Sarah &amp; David Mitchell
                             </p>
                         </div>
@@ -278,15 +278,15 @@ export default function Page() {
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
-                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
+                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold/80" viewBox="0 0 24 24" fill="currentColor">
                                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-white text-sm leading-relaxed mb-6">
+                            <p className="text-white/80 text-sm leading-relaxed mb-6">
                                 &ldquo;As a first-time investor, I was nervous about the process. The Robinson Homes team guided me every step of the way. My rental property is already generating great returns.&rdquo;
                             </p>
-                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white/80 text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 James Rodriguez
                             </p>
                         </div>
@@ -294,15 +294,15 @@ export default function Page() {
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
                             <div className="flex gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
-                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold" viewBox="0 0 24 24" fill="currentColor">
+                                    <svg key={i} xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-brand-gold/80" viewBox="0 0 24 24" fill="currentColor">
                                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                                     </svg>
                                 ))}
                             </div>
-                            <p className="text-white text-sm leading-relaxed mb-6">
+                            <p className="text-white/80 text-sm leading-relaxed mb-6">
                                 &ldquo;The renovation of our home exceeded all expectations. Robinson Homes transformed an outdated property into a modern masterpiece. Their craftsmanship is truly exceptional.&rdquo;
                             </p>
-                            <p className="font-semibold text-white text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                            <p className="font-semibold text-white/80 text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                                 Emily &amp; Tom Chen
                             </p>
                         </div>
