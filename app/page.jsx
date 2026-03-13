@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { PhotoSlideshow } from '../components/photo-slideshow';
 
 export default function Page() {
     return (
@@ -62,8 +63,8 @@ export default function Page() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                         <div className="relative rounded-lg overflow-hidden shadow-xl aspect-[4/3]">
                             <img
-                                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80"
-                                alt="Modern interior home design"
+                                src="/images/photo-4.jpeg"
+                                alt="Luxury kitchen by Robinson Homes"
                                 className="w-full h-full object-cover"
                             />
                         </div>
@@ -235,56 +236,12 @@ export default function Page() {
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
                     <div className="text-center mb-16">
                         <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">Craftsmanship</p>
-                        <h2 className="mb-4">Design Showcase</h2>
+                        <h2 className="mb-4">Our Work</h2>
+                        <p className="text-gray-500 max-w-2xl mx-auto">See the quality and attention to detail that goes into every Robinson Homes project.</p>
                         <div className="section-divider mt-6" />
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div className="group relative rounded-lg overflow-hidden aspect-[3/4] shadow-md">
-                            <img
-                                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
-                                alt="Kitchen Design"
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                            <div className="absolute bottom-0 left-0 right-0 p-5">
-                                <h3 className="!text-white text-lg">Kitchen Design</h3>
-                            </div>
-                        </div>
-                        <div className="group relative rounded-lg overflow-hidden aspect-[3/4] shadow-md">
-                            <img
-                                src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=600&q=80"
-                                alt="Living Spaces"
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                            <div className="absolute bottom-0 left-0 right-0 p-5">
-                                <h3 className="!text-white text-lg">Living Spaces</h3>
-                            </div>
-                        </div>
-                        <div className="group relative rounded-lg overflow-hidden aspect-[3/4] shadow-md">
-                            <img
-                                src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80"
-                                alt="Bathrooms"
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                            <div className="absolute bottom-0 left-0 right-0 p-5">
-                                <h3 className="!text-white text-lg">Bathrooms</h3>
-                            </div>
-                        </div>
-                        <div className="group relative rounded-lg overflow-hidden aspect-[3/4] shadow-md">
-                            <img
-                                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80"
-                                alt="Kitchen Details"
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                            <div className="absolute bottom-0 left-0 right-0 p-5">
-                                <h3 className="!text-white text-lg">Kitchen Details</h3>
-                            </div>
-                        </div>
-                    </div>
+                    <PhotoSlideshow />
                 </div>
             </section>
 
