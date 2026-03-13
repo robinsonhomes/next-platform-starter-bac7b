@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: 'url(/images/robinson-home-landing.jpeg)',
+                        backgroundImage: 'url(/images/photo-14.jpeg)',
                     }}
                 />
                 <div className="absolute inset-0 bg-black/30" />
@@ -32,8 +32,8 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                         <div className="relative rounded-lg overflow-hidden shadow-xl aspect-[4/3]">
                             <img
-                                src="/images/robinson-home-exterior.jpeg"
-                                alt="Robinson Homes LLC property exterior"
+                                src="/images/photo-1.jpeg"
+                                alt="Modern open-concept kitchen by Robinson Homes"
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute -bottom-4 -right-2 sm:right-4 bg-brand-gold text-white px-6 py-4 rounded-lg shadow-xl">
