@@ -11,7 +11,7 @@ export default function ContactPage() {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: 'url(https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=1600&q=80)',
+                        backgroundImage: 'url(/images/about-robinson-homes-bg.jpg)',
                     }}
                 />
                 <div className="absolute inset-0 bg-black/30" />
