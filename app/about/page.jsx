@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: 'url(https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80)',
+                        backgroundImage: 'url(/images/robinson-home-landing.jpeg)',
                     }}
                 />
                 <div className="absolute inset-0 bg-black/30" />
