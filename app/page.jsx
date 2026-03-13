@@ -54,35 +54,26 @@ export default function Page() {
             {/* About Us Preview */}
             <section className="bg-white">
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                        <div className="relative rounded-lg overflow-hidden shadow-xl aspect-[4/3]">
-                            <img
-                                src="/images/photo-4.jpeg"
-                                alt="Luxury kitchen by Robinson Homes"
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-                        <div>
-                            <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">
-                                About Us
+                    <div className="max-w-3xl mx-auto text-center">
+                        <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-3">
+                            About Us
+                        </p>
+                        <h2 className="mb-6">
+                            Building Wealth Through Real Estate
+                        </h2>
+                        <div className="space-y-4 text-gray-600 leading-relaxed">
+                            <p>
+                                Since 2016, Robinson Homes LLC has been a staple in the Oklahoma real estate market.
+                                What began as a vision has grown into a $3 million asset portfolio.
                             </p>
-                            <h2 className="mb-6">
-                                Building Wealth Through Real Estate
-                            </h2>
-                            <div className="space-y-4 text-gray-600 leading-relaxed">
-                                <p>
-                                    Since 2016, Robinson Homes LLC has been a staple in the Oklahoma real estate market.
-                                    What began as a vision has grown into a $3 million asset portfolio.
-                                </p>
-                                <p>
-                                    Built on a foundation of grit, local expertise, and a proven track record of success,
-                                    we don&apos;t just build houses &mdash; we build opportunities.
-                                </p>
-                            </div>
-                            <Link href="/about" className="btn btn-primary mt-8 no-underline">
-                                Learn More About Us
-                            </Link>
+                            <p>
+                                Built on a foundation of grit, local expertise, and a proven track record of success,
+                                we don&apos;t just build houses &mdash; we build opportunities.
+                            </p>
                         </div>
+                        <Link href="/about" className="btn btn-primary mt-8 no-underline">
+                            Learn More About Us
+                        </Link>
                     </div>
                 </div>
             </section>
