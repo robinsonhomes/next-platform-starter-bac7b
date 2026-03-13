@@ -47,7 +47,7 @@ export default function PropertiesPage() {
                         backgroundImage: 'url(/images/photo-13.jpeg)',
                     }}
                 />
-                <div className="absolute inset-0 bg-brand-navy/75" />
+                <div className="absolute inset-0 bg-brand-navy/50" />
                 <div className="relative max-w-4xl mx-auto px-6 sm:px-8 py-24 sm:py-32 text-center">
                     <p className="text-brand-gold text-sm font-semibold tracking-widest uppercase mb-4">Portfolio</p>
                     <h1 className="!text-white mb-6">Our Properties</h1>
