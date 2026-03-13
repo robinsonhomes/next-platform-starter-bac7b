@@ -28,24 +28,24 @@ export default function Page() {
             </HeroSlideshow>
 
             {/* Stats Bar */}
-            <section className="bg-brand-navy">
+            <section className="bg-white border-b border-gray-100">
                 <div className="max-w-6xl mx-auto px-6 sm:px-8 py-8">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
                         <div>
                             <p className="text-brand-gold text-2xl sm:text-3xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>$3M+</p>
-                            <p className="text-gray-400 text-xs sm:text-sm mt-1">Asset Portfolio</p>
+                            <p className="text-gray-500 text-xs sm:text-sm mt-1">Asset Portfolio</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-2xl sm:text-3xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>2016</p>
-                            <p className="text-gray-400 text-xs sm:text-sm mt-1">Founded</p>
+                            <p className="text-gray-500 text-xs sm:text-sm mt-1">Founded</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-2xl sm:text-3xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>360&deg;</p>
-                            <p className="text-gray-400 text-xs sm:text-sm mt-1">Industry Expertise</p>
+                            <p className="text-gray-500 text-xs sm:text-sm mt-1">Industry Expertise</p>
                         </div>
                         <div>
                             <p className="text-brand-gold text-2xl sm:text-3xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>100%</p>
-                            <p className="text-gray-400 text-xs sm:text-sm mt-1">Grit &amp; Hustle</p>
+                            <p className="text-gray-500 text-xs sm:text-sm mt-1">Grit &amp; Hustle</p>
                         </div>
                     </div>
                 </div>
@@ -335,8 +335,8 @@ export default function Page() {
             </section>
 
             {/* CTA Section */}
-            <section className="relative overflow-hidden bg-brand-navy">
-                <div className="absolute inset-0 opacity-20">
+            <section className="relative overflow-hidden bg-white">
+                <div className="absolute inset-0 opacity-10">
                     <img
                         src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80"
                         alt=""
@@ -344,15 +344,15 @@ export default function Page() {
                     />
                 </div>
                 <div className="relative max-w-4xl mx-auto px-6 sm:px-8 py-20 sm:py-28 text-center">
-                    <h2 className="!text-white mb-4">Ready to Build Your Legacy?</h2>
-                    <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
+                    <h2 className="mb-4">Ready to Build Your Legacy?</h2>
+                    <p className="text-gray-500 text-lg mb-10 max-w-2xl mx-auto">
                         Whether you&apos;re looking to invest, build, or find your dream home &mdash; Robinson Homes LLC is ready to help.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link href="/contact" className="btn btn-primary btn-lg no-underline">
                             Schedule a Consultation
                         </Link>
-                        <Link href="/properties" className="btn btn-outline btn-lg no-underline !border-white !text-white hover:!bg-white hover:!text-brand-navy">
+                        <Link href="/properties" className="btn btn-outline btn-lg no-underline">
                             Browse Our Homes
                         </Link>
                     </div>

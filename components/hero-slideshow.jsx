@@ -63,8 +63,8 @@ export function HeroSlideshow({ children }) {
                 />
             </div>
 
-            {/* Dark overlay for text readability */}
-            <div className="absolute inset-0 bg-brand-navy/65 z-[3]" />
+            {/* Light overlay for text readability */}
+            <div className="absolute inset-0 bg-black/30 z-[3]" />
 
             {/* Content overlay */}
             <div className="relative z-[4] w-full">
